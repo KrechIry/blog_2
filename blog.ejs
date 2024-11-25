@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog.Final_project</title>
+    <link rel="stylesheet" href="travel.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+               
+                <li><a href="#">HOME</a></li>
+                <%- include('./views/about.ejs') %> <li><a href="#">About</a></li> 
+                <%- include('./views/post.ejs') %> <li><a href="post.ejs">POSTS</a></li>
+                <li><a href="#"><img src="search-icon.svg" alt="SEARCH"></a></li>
+            </ul>
+        </nav>
+        <div class="container">
+            <h1>Blog. All's Well That Ends Well</h1>
+          
+        </div>
+    </header>
+    <main>
+        <section class="section">
+            <div class="container">
+                <div class="content">
+                    <h2>WHO WE ARE</h2>
+                    <p>OUR PASSION</p>
+                </div>
+            </div>
+        </section>
+        <section class="section">
+            <div class="container">
+                <div class="content">
+                    <h2>PLEASE ADD POST.</h2> 
+                <a href="#" class="learn-more">ADD POST</a>
+                    <p>Share the news!</p>
+                </div>
+            </div>
+        </section>
+      
+    </main>
+    <footer>
+        <div class="container">
+            <p>&copy; 11.2024 <br> Krechetova Iryna <br>  All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>
