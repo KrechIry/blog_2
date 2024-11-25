@@ -4,7 +4,7 @@ let PORT = process.env.PORT || 3000;
 let path = require("path"); 
 const { title } = require('process'); 
 let mongoose = require("mongoose"); 
-let Post = require("./models/postModel"); 
+let Post = require("postModel"); 
 const { error } = require('console'); 
 let methodOverride = require ("method-override"); 
 
